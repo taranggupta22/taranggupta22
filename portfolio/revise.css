@@ -1,0 +1,50 @@
+
+    body{
+        background-color: rgb(237, 231, 154);
+        text-align: center;
+    }
+     .nava{
+        text-decoration:none ;
+        font: bold;
+        color: aquamarine;
+        background-color: rgba(186, 182, 182, 0.449);
+        overflow: hidden;
+        padding: 10px;
+      
+      text-align: center;
+    }
+    
+    nav a:hover{
+            color: rgb(94, 154, 210);
+        }
+     nav a:visited{
+            color: rgb(12, 17, 14);
+            font: bold;
+            
+        }
+      /* img{
+            height:100%;
+            width:100%;
+            border: 10px solid black;
+            padding: 20px;
+            margin: 10px;
+
+        }*/
+         .background{
+          
+        background-image:url("img3/image2.png");
+        background-repeat: no-repeat; 
+        background-size: 95%;    
+        background-attachment:scroll ;
+        
+        
+        height: 400px;
+        width: 100%;   
+        background-position: center;
+        
+
+
+        }
+        footer{
+            color: azure;
+        }

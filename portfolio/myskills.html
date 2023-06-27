@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        /* grid-template-columns: repeat(4,4fr); */
+        /* this makes four columns of diving it in 4 fraction */
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1rem;
+        place-items:  center;
+        height : 500px;
+        /*       height is impt here for making the place itemm work      */
+
+
+    }
+    .box{
+        background-color: rgb(239, 168, 239);
+        border: 10px solid black;
+        padding: 50px;}
+    body h1{
+        font:bold;
+        height:200px;
+        /*       height is impt here for making the place itemm work      */
+
+        }
+</style>
+
+<body>
+    <h1> My skills</h1>
+    <div class="container">
+        <div class="box">Foundation in c++</div>
+        <div class="box">HTML5</div>
+        <div class="box">CSS</div>
+        <div class="box">JavaScript</div>
+        <div class="box">Wordpress</div>
+        <div class="box"> Canva Designing</div>
+        <div class="box">content Writer</div>
+        <div class="box">SDLC</div>
+        <div class="box">My SQL</div>
+        
+        <div class="box">Analytical and Reasoning</div>
+</body>
+</html>
